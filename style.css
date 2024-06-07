@@ -1,0 +1,985 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height: auto;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.header .logo{
+    margin-left: 20px;
+}
+.header .logo img{
+    height: 70px;
+}
+.menus ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menus ul li {
+    list-style: none;
+    margin: 20px;
+}
+.menus ul li a{
+    text-decoration: none;
+}
+.header .button{
+    margin-right: 20px;
+  
+}
+.header .button button{
+    background-color: crimson;
+    padding: 12px;
+    width: 100px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+}
+/*      <!--end of header section-->  */
+#homepage{
+    background-color: rgb(190, 181, 181);
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#homepage .box1{
+    margin-left: 30px;
+    height: 100vh;
+    width: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#homepage .box1 img{
+  height: 26px;
+  margin: 15px;
+}
+#homepage .box2{
+    height: 100vh;
+    margin-left: 20px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+#homepage .box2 .content{
+    padding: 10px;
+    height: auto;
+    width: 100%;
+}
+#homepage .box2 .content h2{
+   font-size: 55px;
+   line-height: 55px;
+   color: rgb(13, 13, 85);
+}
+#homepage .box2 .content p{
+   margin-top: 30px;
+   font-size: 22px;
+
+}
+#homepage .box2 .content .btn button{
+    width: 100px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: crimson;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    margin-top: 30px;
+
+}
+#homepage .box3{
+    height: 110vh;
+    width: 47%;
+    background-image: url(images/mypic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+/*      <!--end of homepage-->    */
+#aboutpage{
+    height: auto;
+    background-color: rgb(236, 225, 225);
+   
+}
+.abouthead{
+    text-align: center;
+    padding-top: 20px;
+}
+.abouthead h1{
+    color: rgb(13, 13, 85);
+    font-size: 36px;
+}
+.abouthead p{
+    font-size: 20px;
+}
+.information{
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.information .about1{
+    height: 70vh;
+    width: 30%;
+   
+}
+.about1 h2{
+    padding-left: 20px;
+    color: rgb(13, 13, 85);
+    
+}
+.about1 p{
+    padding: 20px;
+    font-size: 18px;
+}
+.about1 button{
+    padding: 12px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    background-color: crimson;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.information .about2{
+    height: 70vh;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+
+
+.about2 p{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.information .about3{
+    height: 70vh;
+    width: 30%;
+    border: 5px solid crimson;
+    background-image: url(images/section-1-bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*   end of aboutpage    */
+.services{
+    height: auto;
+    padding-top: 20px;
+    background-color: rgb(190, 181, 181);
+}
+.servicehead{
+    height: 80px;
+    text-align: center;
+    color: rgb(13, 13, 85);
+   
+}
+.serviceinfo{
+    height: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.service1{
+    height: 70vh;
+    background-color: white;
+    width: 25%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.service1 img{
+    height: 50px;
+    margin-bottom: 30px;
+}
+.service1 h2{
+    margin-bottom: 20px;
+    color: rgb(13, 13, 85);
+}
+.service1 p{
+    font-size: 15px;
+    padding: 10px;
+}
+.service1 a img{
+    height: 25px;
+    margin-top: 20px;
+}
+.service1 button{
+    width: 100px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: crimson;
+    color: white;
+    border: none;
+}
+/*   end of  servicepage  */
+.experiencehead{
+    height: auto;   
+   
+}
+.backroundpic{
+    background-image: url(images/work.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text h1{
+    padding: 20px;
+    color: rgb(13, 13, 85);
+}
+
+
+ 
+.experience2{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: rgb(190, 181, 181);
+}
+.experience22{
+    height: 65vh;
+   background-color: white;
+    width: 25%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+.experience22 h1{
+    line-height: 40px;
+    padding-left: 10px;
+    color: rgb(13, 13, 85);
+}
+.experience22 p{
+   margin-top: 20px;
+   padding: 10px;
+   text-align: center;
+}
+.experience22 button{
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    background-color: crimson;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+/*   end of experiencesection  */
+#myportfolio{
+    height: 80vh;
+    padding-top: 30px;
+    
+
+}
+#myportfolio h1,p{
+    text-align: center;
+   
+}
+#myportfolio h1{
+    margin-top: 30px;
+    color: rgb(13, 13, 85);
+}
+.pics{
+    height: 250px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+}
+.pics img{
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/*  end of portfolio   */
+.clients{
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: rgb(190, 181, 181);
+}
+.clients h1,p{
+    text-align: center;
+}
+.clients h1{
+    color: rgb(13, 13, 85);
+}
+.customerssay{
+    height: 80vh;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+}
+.customer1{
+    background-color: white;
+height: 75vh;
+width: 25%;
+margin: 20px;
+box-shadow: 0.5px 0.5px 0.5px 0.5px;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+text-align: left;
+display: flex;
+flex-direction: column;
+}
+.customer1 img{
+    border-radius: 50%;
+    width: 60px;
+    border: 2px solid rgb(13, 13, 85);
+}
+.customer1 p{
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding: 20px;
+}
+.customer1 a img{
+    width: 29px;
+    margin-top: 20px;
+    border: none;
+}
+.customer1 h3{
+    color: crimson;
+}
+/*   end of customers page */
+#stayintouch{
+    height: auto;
+    justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+padding-top: 20px;
+}
+.staycontent{
+    height: 50vh;
+    width: 50%;
+
+}
+.staycontent h1{
+    padding: 10px;
+    color: rgb(13, 13, 85);
+}
+.staycontent p{
+    font-size: 18px;
+}
+.staycontent input {
+    outline: none;
+    border: 1px solid rgb(13, 13, 85);
+    background-color: transparent;
+    color: crimson;
+    width: 300px;
+    margin-top: 20px;
+    padding: 12px;
+    text-align: center;
+}
+.staycontent .submit  input {
+    width: 100px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.footer{
+    height: 50vh;
+    background-color:  rgb(13, 13, 85);;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.footer1{
+    width: 30%;
+    height: 40vh;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.footer1 img{
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer h1{
+    color: crimson;
+}
+.footer p{
+    color: white;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer p{
+    margin: 20px;
+    
+}
+ 
+
+.footer2{
+    width: 30%;
+    height: 40vh;
+    margin: 20px;
+}
+
+/*  start of media queries */
+@media only screen and (max-width:800px){
+*{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.header{
+    height: auto;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.header .logo{
+    margin-left: 10px;
+}
+.header .logo img{
+    height: 60px;
+}
+.menus{
+    display: none;
+}
+.menus ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menus ul li {
+    list-style: none;
+    margin: 20px;
+}
+.menus ul li a{
+    text-decoration: none;
+}
+.header .button{
+    margin-right: 10px;
+  
+}
+.header .button button{
+    background-color: crimson;
+    padding: 12px;
+    width: 100px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+}
+/*      <!--end of header section-->  */
+#homepage{
+    background-color: rgb(190, 181, 181);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#homepage .box1{
+    margin-left: 30px;
+    height: 100vh;
+    width: 4%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#homepage .box1 img{
+  height: 26px;
+  margin: 15px;
+}
+#homepage .box2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#homepage .box2 .content{
+    height: auto;
+    width: 100%;
+}
+#homepage .box2 .content h2{
+   font-size: 35px;
+   line-height: 40px;
+   color: rgb(13, 13, 85);
+}
+#homepage .box2 .content p{
+   margin-top: 30px;
+   font-size: 12px;
+   padding-right: 20px;
+
+}
+#homepage .box2 .content .btn button{
+    width: 100px;
+    padding: 12px;
+    background-color: crimson;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    margin-top: 30px;
+
+}
+#homepage .box3{
+    height: 400px;
+    width: 100%;
+    background-image: url(images/mypic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+/*      <!--end of homepage-->    */
+#aboutpage{
+    height: auto;
+    background-color: rgb(236, 225, 225);
+   
+}
+.abouthead{
+    text-align: center;
+    padding-top: 20px;
+}
+.abouthead h1{
+    color: rgb(13, 13, 85);
+    font-size: 36px;
+}
+.abouthead p{
+    font-size: 12px;
+}
+.information{
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.information .about1{
+    height: auto;
+    width: 100%;
+   
+}
+.about1 h2{
+    padding-left: 20px;
+    color: rgb(13, 13, 85);
+    
+}
+.about1 p{
+    padding: 20px;
+    font-size: 12px;
+}
+.about1 button{
+    padding: 12px;
+    width: 100px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.information .about2{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+
+
+.about2 p{
+    padding: 20px;
+    font-size: 12px;
+}
+
+.information .about3{
+    height: 70vh;
+    width: 100%;
+  
+    background-image: url(images/section-1-bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*   end of aboutpage    */
+.services{
+    height: auto;
+    padding-top: 20px;
+  
+}
+.servicehead{
+    height: auto;
+    text-align: center;
+    color: rgb(13, 13, 85);
+   
+}
+.serviceinfo{
+    height: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.service1{
+    height: 400px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.service1 img{
+    height: 50px;
+    margin-bottom: 30px;
+}
+.service1 h2{
+    margin-bottom: 20px;
+    color: rgb(13, 13, 85);
+}
+.service1 p{
+    font-size: 12px;
+    padding: 20px;
+}
+.service1 a img{
+    height: 25px;
+    margin-top: 20px;
+}
+/*   end of  servicepage  */
+.experience{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.experiencehead{
+    height: auto;   
+   
+}
+.backroundpic{
+    background-image: url(images/work.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.text{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.text h1{
+    padding: 20px;
+    color: rgb(13, 13, 85);
+}
+
+.experience1{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 242, 235);
+}
+.experience11{
+    height: 400px;
+    background-color: white;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.experience11 h1{
+    line-height: 40px;
+    padding-left: 10px;
+    color: rgb(13, 13, 85);
+}
+.experience11 p{
+   margin-top: 20px;
+  
+   text-align: left;
+   font-size: 12px;
+}
+.experience11 button{
+    padding: 12px;
+    color: white;
+    background-color: crimson;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: none;
+}
+.experience2{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 242, 235);
+}
+.experience22{
+    height: 400px;
+   background-color: white;
+    width: 90%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.experience22 h1{
+    line-height: 40px;
+    padding-left: 10px;
+    color: rgb(13, 13, 85);
+}
+.experience22 p{
+   margin-top: 20px;
+   padding: 20px;
+   text-align: left;
+}
+.experience22 button{
+    padding: 12px;
+    color: white;
+    background-color: crimson;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+/*   end of experiencesection  */
+#myportfolio{
+    height: auto;
+    padding-top: 30px;
+    
+
+}
+#myportfolio h1,p{
+    text-align: center;
+   
+}
+#myportfolio h1{
+    margin-top: 30px;
+    color: rgb(13, 13, 85);
+}
+.pics{
+    height: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.pics img{
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/*  end of portfolio   */
+.clients{
+    padding-top: 30px;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: rgb(248, 242, 235);
+}
+.clients h1,p{
+    text-align: center;
+}
+.clients h1{
+    color: rgb(13, 13, 85);
+}
+.customerssay{
+    height: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.customer1{
+background-color: white;
+height: 350px;
+width: 90%;
+margin: 20px;
+box-shadow: 0.5px 0.5px 0.5px 0.5px ;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+text-align: left;
+display: flex;
+flex-direction: column;
+}
+.customer1 img{
+    border-radius: 50%;
+    width: 60px;
+    border: 2px solid crimson;
+}
+.customer1 p{
+    font-size: 12px;
+    padding-bottom: 30px;
+    padding: 30px;
+}
+.customer1 a img{
+    width: 29px;
+    margin-top: 20px;
+    border: none;
+}
+/*   end of customers page */
+#stayintouch{
+    height: auto;
+    justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+}
+.staycontent{
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+
+}
+.staycontent h1{
+   
+    color: rgb(13, 13, 85);
+}
+.staycontent p{
+    font-size: 12px;
+}
+.staycontent input {
+    width: 300px;
+    margin-top: 20px;
+    padding: 12px;
+    text-align: center;
+}
+.staycontent .submit  input {
+    width: 100px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.footer{
+    height: auto;
+    background-color: crimson;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer1{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.footer h1{
+    color: rgb(13, 13, 85);
+}
+.footer p{
+    color: white;
+    font-size: 12px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer p{
+    margin-top: 20px;
+    
+}
+ 
+
+.footer2{
+    width: 100%;
+    height: auto;
+
+}
+}
+    
